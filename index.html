@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contest 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <h2 id="logo"><a id="lib" href="index.html">Library System</a></h2>
+      <ul id="nav-menu">
+        <li class="nav-list"><a href="#page-1" class="nav-link">Books</a></li>
+        <li class="nav-list">
+          <a href="#page-2" class="nav-link">Register</a>
+        </li>
+        <li class="nav-link">Contact Us</li>
+        <li class="nav-link">Logout</li>
+      </ul>
+    </nav>
+    <section id="page-1">
+      <div class="container">
+        <table id="book-info">
+          <h1 class="page-title">Books</h1>
+          <br />
+          <tbody>
+            <tr>
+              <th class="table-head">Book ID</th>
+              <th class="table-head">Title</th>
+              <th class="table-head">Author</th>
+              <th class="table-head">Genre</th>
+              <th class="table-head">Availability</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>
+                <a href="#" class="book-title">The Great Gatsby</a>
+                <table class="title-table">
+                  <tbody>
+                    <tr>
+                      <td>Publication Date: 10 apr 1925</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:250</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN:215-4589621648</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>F. Scott Fitzgerald</td>
+              <td>Tragedy</td>
+              <td>Available</td>
+            </tr>
+
+            <tr>
+              <td>2</td>
+              <td>
+                <a href="#" class="book-title">Adventure of Huckleberry Finn</a>
+                <table class="title-table">
+                  <tbody>
+                    <tr>
+                      <td>Publication Date:2014</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:280</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN:978-1580495837</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>Mark Twain</td>
+              <td>Adventure stories</td>
+              <td>Available</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>
+                <a href="#" class="book-title">The Secret of the Old Clock</a>
+                <table class="title-table">
+                  <tbody>
+                    <tr>
+                      <td>Publication Date:1930</td>
+                    </tr>
+                    <tr>
+                      <td>Page Count:180</td>
+                    </tr>
+                    <tr>
+                      <td>ISBN:978-0448095011</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+              <td>Carolyn Keene</td>
+              <td>Mystery, Young Adult</td>
+              <td>Available</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <section id="page-2">
+      <div class="container">
+        <h1 class="page-title">Register</h1>
+
+        <form action="#" method="POST">
+          <label class="form-label" for="first_name">First Name:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="first_name"
+            placeholder="First Name"
+            required=""
+            fdprocessedid="yy1t0j"
+          />
+          <br />
+          <label class="form-label" for="last_name">Last Name:</label>
+          <input
+            class="form-input"
+            type="text"
+            id="last_name"
+            placeholder="Last Name"
+            required=""
+            fdprocessedid="57830e"
+          />
+          <br />
+          <label class="form-label" for="email">Email:</label>
+          <input
+            class="form-input"
+            type="email"
+            id="email"
+            placeholder="example@gmail.com"
+            required=""
+            fdprocessedid="17b98b"
+          />
+          <br />
+          <label class="form-label" for='dob"'>Date Of Birth:</label>
+          <input class="form-input" type="date" id="dob" required="" />
+          <br />
+          <label class="form-label" for="age">Age:</label>
+          <input
+            class="form-input"
+            type="number"
+            id="age"
+            min="5"
+            max="100"
+            placeholder="Age"
+            required=""
+            fdprocessedid="yx5pcr"
+          />
+          <br />
+          <label class="form-label" for="password">Password:</label>
+          <input
+            class="form-input"
+            type="password"
+            id="password"
+            placeholder="Password"
+            required=""
+            fdprocessedid="y7n51e"
+          />
+          <br />
+          <label class="form-label" for="confirm-password"
+            >Confirm Password:</label
+          >
+          <input
+            class="form-input"
+            type="password"
+            id="confirm-password"
+            minlength="6"
+            maxlength="8"
+            placeholder="Confirm Password"
+            required=""
+            fdprocessedid="tad8qa"
+          />
+
+          <button class="form-btn" type="submit" fdprocessedid="ds9icr">
+            Register
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
